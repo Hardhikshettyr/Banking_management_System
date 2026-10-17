@@ -1,0 +1,10 @@
+package com.bank.exception;
+
+/** Customer or account details failed validation. */
+public class InvalidInputException extends BankException {
+    private static final long serialVersionUID = 1L;
+
+    public InvalidInputException(String message) {
+        super(message);
+    }
+}
